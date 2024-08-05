@@ -1,0 +1,22 @@
+{
+    "organizeYourLife": "Organize Your Life",
+    "startPageSubtitle": "Become focused, organized, and calm with To Do. Top #1 Task manager and to do list app in the world",
+    "createAccount": "Create Account",
+    "signIn": "Sign in",
+    "signUpForFree": "Sign up for free",
+    "pleaseEnterYourName":"Please enter your name",
+    "yourName": "Your Name",
+    "pleaseEnterEmailAddress": "Please enter email address",
+    "yourEmailAddress": "Your Email Address",
+    "pleaseEnterPassword": "Please enter password",
+    "yourPassword": "Your Password",
+    "signUp": "Sign up",
+    "signInToYourAccount": "Sign in to your account",
+    "dontHaveAnAccount": "don't have an account?",
+    "toDoListOf": "To Do List of ",
+    "addTask": "Add Task",
+    "alreadyHaveAnAccount": "Already have an account?",
+    "Enter valid password": "Password should should contain at least one upper case, one lower case, one digit, one Special character,and Must be at least 8 characters in length",
+    "noData": "You have no tasks, add new task by clicking +",
+    "something went wrong": "Something went wrong ,please try again later"
+}

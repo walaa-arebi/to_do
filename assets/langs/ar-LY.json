@@ -1,0 +1,23 @@
+{
+  "organizeYourLife": "نظم حياتك",
+  "startPageSubtitle": "كن مركزًا ومنظمًا وهادئًا مع تطبيق To Do. أفضل تطبيق لإدارة المهام وقائمة المهام في العالم",
+  "createAccount": "إنشاء حساب",
+  "signIn": "تسجيل الدخول",
+  "signUpForFree": "الاشتراك مجانًا",
+  "pleaseEnterYourName": "الرجاء إدخال اسمك",
+  "yourName": "اسمك",
+  "pleaseEnterEmailAddress": "الرجاء إدخال عنوان بريدك الإلكتروني",
+  "yourEmailAddress": "عنوان بريدك الإلكتروني",
+  "pleaseEnterPassword": "الرجاء إدخال كلمة المرور",
+  "yourPassword": "كلمة المرور",
+  "signUp": "الاشتراك",
+  "signInToYourAccount": "تسجيل الدخول إلى حسابك",
+  "dontHaveAnAccount": "ليس لديك حساب؟",
+  "toDoListOf": "قائمة المهام لـ",
+  "addTask": "إضافة مهمة",
+  "alreadyHaveAnAccount": "هل لديك حساب؟",
+  "Enter valid password": "يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل، وحرف صغير واحد على الأقل، ورقم واحد على الأقل، وحرف خاص واحد على الأقل، ويجب أن يكون طولها على الأقل 8 أحرف",
+  "noData": "لا يوجد لديك مهام , قم بإضافة مهمة جديد بالنقر على +",
+  "something went wrong": "حدث خطأ ما, الرجاء إعادة المحاولة لاحقا"
+
+}
