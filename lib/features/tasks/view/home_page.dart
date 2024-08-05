@@ -56,7 +56,6 @@ class _HomePageState extends State<HomePage> {
                     child: StreamBuilder<List<Task>>(
                         stream: _dataBaseService.todos,
                         builder: (context, snapshot) {
-
                           if (snapshot.hasData) {
                             List<Task> tasks = snapshot.data!;
                             if (tasks.isNotEmpty) {
@@ -119,9 +118,7 @@ class _HomePageState extends State<HomePage> {
     return InkWell(
               onTap: () async {
                 await _auth.signOut();
-                //todo ask ahmed it dont route if loged in at start
-                context.go('/');
-                log("called this");
+                context.go('/startPage');
               },
               child: const Icon(
                 Icons.logout,

@@ -21,6 +21,27 @@ final GoRouter router = GoRouter(
       },
       routes: <RouteBase>[
         GoRoute(
+          path: 'startPage',
+          pageBuilder: (context, state) {
+            return CustomTransitionPage(
+              key: state.pageKey,
+              child: StartPage(),
+              transitionsBuilder: (context, animation, secondaryAnimation, child) {
+                // Change the opacity of the screen using a Curve based on the the animation's
+                // value
+                return SlideTransition(
+                  position: Tween<Offset>(
+                    begin: const Offset(0.75, 0), // Slide from right
+                    end: Offset.zero,
+                  ).animate(animation),
+                  child: child,
+                );
+
+              },
+            );
+          },
+        ),
+        GoRoute(
           path: 'home',
           pageBuilder: (context, state) {
             User user = state.extra as User;
