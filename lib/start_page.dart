@@ -97,7 +97,7 @@ class _StartPageState extends State<StartPage> {
         ),
         child: Center(
             child: Text(
-          "signIn".tr(),
+          "ssignIn".tr(),
           style: TextStyle(
               fontSize: screenSize.width * 0.04, fontWeight: FontWeight.bold),
         )),
